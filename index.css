@@ -1,0 +1,40 @@
+body{
+    
+    --sat = 35%;
+    --sats =70%
+    --brights=45%;
+    --bright=65%;
+    }
+    
+    .inc{
+    
+        border-radius:20%;
+        border: 2px solid black;
+        background-color: hsl(200,var(--sat),var(--bright));;
+        align-items:center;
+        align-content:center;
+        
+    }
+    .inc:hover{
+        border-radius:30%;
+        background-color: hsl(var(--hue),var(--sats),var(--brights));
+        align-items: center;
+        align-content:center;
+    }
+    /*
+    .menue{
+        size-adjust: 30px;
+        position: absolute;
+    
+    }
+    .menue:hover{
+        size-adjust:30px;
+    position:absolute;
+    
+    }
+    */
+    .position{
+        align-items: center ;
+        align-content:center;
+        margin:200px 200px 200px 200px;
+    }
