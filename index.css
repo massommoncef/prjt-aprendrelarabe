@@ -1,40 +1,25 @@
-body{
-    
-    --sat = 35%;
-    --sats =70%
-    --brights=45%;
-    --bright=65%;
+
+    .inc,.reset,.dec{
+       
+        border : 2px solid black;
+        background-color : hsl(213,70%,40%);
+        text-align: center;
+        transition:background-color 0.30s;
+        font-size:1.5em;
     }
-    
-    .inc{
-    
-        border-radius:20%;
-        border: 2px solid black;
-        background-color: hsl(200,var(--sat),var(--bright));;
-        align-items:center;
-        align-content:center;
+    .inc:hover,.dec:hover,.reset:hover{
         
+        background-color:hsl(231, 89%, 45%);
+     
+        cursor: pointer;
+
     }
-    .inc:hover{
-        border-radius:30%;
-        background-color: hsl(var(--hue),var(--sats),var(--brights));
-        align-items: center;
-        align-content:center;
+  .affichage{
+
+    display:block;
+    font-size: 10em;
+text-align:center;
     }
-    /*
-    .menue{
-        size-adjust: 30px;
-        position: absolute;
-    
-    }
-    .menue:hover{
-        size-adjust:30px;
-    position:absolute;
-    
-    }
-    */
     .position{
-        align-items: center ;
-        align-content:center;
-        margin:200px 200px 200px 200px;
+       text-align:center; 
     }

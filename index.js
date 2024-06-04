@@ -1,11 +1,21 @@
-const incbut = document.getElementsByClassName("inc").onClick;
-const decbut = document.getElementsByClassName("dec").onClick;
-const reset = document.getElementsByClassName("reset").onclick;
+const incbut = document.getElementsByClassName("inc");
+const decbut = document.getElementsByClassName("dec");
+const reset = document.getElementsByClassName("reset");
+const affichage = document.getElementsByClassName("affichage");
+let num=0;
 
-let num;
-num=  document.getElementsByClassName("input").onClick
-num=Number(num);
-function(){
-    document.getElementsByClassName("inc").onClick
-
+incbut.onclick = function(){
+    num++;
+   affichage.textContent = num ;
 }
+
+
+decbut.onclick = function(){
+    num--;
+   affichage.textContent = num ;
+}
+incbut.onclick = function(){
+    num=0;
+   affichage.textContent = num ;
+}
+
