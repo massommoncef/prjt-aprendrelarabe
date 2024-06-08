@@ -1,4 +1,7 @@
-const ouvre=document.getElementById("ouvrir-info");
+const darkmode=document.querySelector(".dark");
+const body=document.querySelector("body");
 
 
-console.log("mmoha makan walo ");
+darkmode.addEventListener(onclick,function(){
+body.classList.toggle("white");
+});
