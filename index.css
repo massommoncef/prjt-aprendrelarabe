@@ -43,3 +43,38 @@ button {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     
 }
+.home {
+    font-size:1em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
+    align-content:center;
+    display: flex;
+    height: 100%;  
+    width:100%;
+}
+.home-text {
+    color:hsl(53, 72%, 50%);
+    padding-right:30px;
+    height: 100%;
+    width:50%;
+    top:0px;
+    left:0px;
+    padding-top:0ox;
+    padding-bottom: 40px;
+}
+
+.home-img img {
+    border:none;
+    height: 90%;
+    width: 90%;
+    
+    right: 0px;
+}
+.text{
+    display:inline-block;
+    size: 1em;
+    align-items: center;
+  
+    
+
+}
